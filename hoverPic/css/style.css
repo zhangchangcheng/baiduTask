@@ -1,0 +1,74 @@
+@charset "UTF-8"
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+}
+body
+{
+    padding: 50px;
+}
+.scenes
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 21px 0;
+}
+.scenesMain
+{
+    position: absolute;
+    z-index: 1;
+
+    width: 1200px;
+    height: 479px;
+}
+.scenesMain img
+{
+    float: left;
+}
+.s-item
+{
+    position: relative;
+
+    float: left;
+
+    width: 120px;
+    height: 458px;
+}
+.s-item > a
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+.s-mask,
+.s-pic
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-position: 50%50%;
+}
+.s-pic
+{
+    z-index: 1;
+}
+.s-item.on.s-pic
+{
+    z-index: 5;
+}
