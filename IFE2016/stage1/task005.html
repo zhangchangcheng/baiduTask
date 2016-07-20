@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE-Task005</title>
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        .cf:before, .cf:after{display: table;content: '';}
+        .cf:after{clear: both;}
+        .cf{zoom: 1;}
+
+        .header{width: 100%;min-width: 760px;height: 60px;background-color: #333;}
+        .hd-left{float: left;margin-left: 40px;padding: 11px 0;}
+        .hd-right{float: right;width: 400px;margin-right: 20px;}
+        .hd-right li{float: left;width: 100px;line-height: 60px;text-align: left;}
+        .hd-right li a{color: #fff;font-weight: bold;}
+        .content{padding: 20px;background-color: #dedede;}
+        .main-box{margin-right: 425px;}
+        .main-box article{padding: 40px 20px;margin-bottom: 20px;background-color: #fff;font-family: "微软雅黑";line-height: 1.5em;box-shadow: 2px 2px 2px #848484;}
+        .main-box h3{font-size: 24px;font-weight: bold;line-height: 1.5em;}
+        .main-box h4{font-size: 18px;color: #aba8b3;line-height: 1.5em;}
+        .main-box span{font-size: 16px;color: #aba8b3;line-height: 1.5em;}
+        .main-box p{text-indent: 2em;}
+        .main-box p em{font-weight: bold;}
+        .main-box ol{margin: 10px 0;}
+        .main-box ol li{list-style-type: decimal;list-style-position: inside;}
+        .img-box{float: left;padding: 10px;margin-top:20px;margin-right: 20px;background-color: #fff;border: 1px solid #999;}
+        .img-box img{width: 150px;height: 150px;}
+        .main-box table{width: 100%;}
+        .main-box table thead{background-color: #333;color: #fff;font-weight: bold;}
+        .main-box table tfoot{background-color: #ccc;color: #000;font-weight: bold;}
+        .side-box{float: right;width: 365px;padding:20px;background-color: #fff;box-shadow: 2px 2px 2px #848484;}
+        .side-box-hd h4{height: 40px;line-height: 40px;font-size: 18px;color: #000;font-weight:bold;border-left: 3px solid #ccc;text-indent: 15px;}
+
+        .footer{width: 100%;min-width: 760px;height: 70px;background-color: #000;color: #fff;}
+        .footer div{padding-top: 20px;text-align: center;font-size: 16px;font-weight: bold;}
+    </style>
+</head>
+<body>
+    <header class="header cf">
+        <div class="hd-left">
+            <img src="images/baidu-logo.png" alt="百度logo">
+        </div>
+        <div class="hd-right">
+            <ul>
+                <li><a href="#">导航链接一</a></li>
+                <li><a href="#">导航链接二</a></li>
+                <li><a href="#">导航链接三</a></li>
+                <li><a href="#">导航链接四</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content cf">
+        <div class="side-box">
+            <div class="side-box-hd">
+                <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+            </div>
+            <form action="" method="post">
+                <label class="label" for="email">请输入邮箱地址</label>
+                <input type="email" name="name" id="email" placeholder="这是一个文本输入框">
+            </form>
+
+
+        </div>
+
+        <div class="main-box">
+            <article class="">
+                <h3>文章一级标题</h3>
+                <h4>文章二级标题</h4>
+                <span>文章作者</span><span>文章发表时间</span>
+                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落这是一个很长很长的段落<em>这里有粗体字</em>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+                <img src="images/team.jpg" alt="这是图片" style="height: 150px;width: 180px;">
+                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落这是一个很长很长的段落<em>这里有粗体字</em>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+            </article>
+            <article class="">
+                <h3>另外文章一级标题</h3>
+                <h4>文章二级标题</h4>
+                <span>文章作者</span><span>文章发表时间</span>
+                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+                <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落这是一个很长很长的段落<em>这里有粗体字</em>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+                <img src="images/team.jpg" alt="这是图片" style="height: 150px;width: 180px;">
+                <ul>
+                    <li>列表项目一</li>
+                    <li>列表项目二</li>
+                    <li>列表项目三</li>
+                </ul>
+            </article>
+            <article class="cf">
+                <h3>图片</h3>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+                <div class="img-box">
+                    <p>好看的图片</p>
+                    <img src="images/member1.jpg" alt="好看的图片" >
+                </div>
+            </article>
+            <article class="">
+                <h3>最后一篇文章一级标题</h3>
+                <h4>文章二级标题</h4>
+                <span>文章作者</span><span>文章发表时间</span>
+                <ol>
+                    <li>排名1</li>
+                    <li>排名2</li>
+                    <li>排名3</li>
+                </ol>
+                <p>下面是一个表格，border为1</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                        <th>表头</th>
+                        <th>表头</th>
+                        <th>表头</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>单元格内容</td>
+                        <td>单元格内容</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>单元格内容</td>
+                        <td>单元格内容</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>单元格内容</td>
+                        <td>单元格内容</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tr>
+                        <td>单元格内容</td>
+                        <td>单元格内容</td>
+                        <td><a href="#">操作</a></td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td>总计</td>
+                            <td colspan="2">1000</td>
+                        </tr>
+
+                    </tfoot>
+                </table>
+            </article>
+
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div>版权所有@</div>
+    </footer>
+</body>
+</html>
